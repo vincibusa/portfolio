@@ -1,3 +1,20 @@
+:root {
+  --background-color: #ffffff; /* Light mode background color */
+  --text-color: #000000; /* Light mode text color */
+  --form-info-spacing: 20px; /* Spazio tra il form e le informazioni personali */
+}
+
+.dark-mode {
+  --background-color: #1f1f1f; /* Dark mode background color */
+  --text-color: #ffffff; /* Dark mode text color */
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  margin: 0;
+}
+
 .App {
   text-align: center;
 }
@@ -7,11 +24,7 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/* Rimuovi stili per .App-logo per semplificare */
 
 .App-header {
   background-color: #282c34;
@@ -24,15 +37,93 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* Rimuovi stili per .App-link per semplificare */
+
+.avatar-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  color: var(--text-color);
+  background-color: var(--background-color);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.theme-switch {
+  position: relative;
+  width: 40px;
+  height: 20px;
+  background-color: #ccc;
+  border-radius: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 2px;
+}
+
+.theme-switch:hover {
+  background-color: #b3b3b3;
+}
+
+.theme-switch svg {
+  font-size: 18px;
+  color: #fff;
+}
+
+.theme-switch.dark-mode {
+  background-color: #212529;
+}
+
+.theme-switch.dark-mode svg {
+  color: #f8f9fa;
+  transform: translateX(20px);
+}
+
+.form-info-container {
+  display: flex; /* Cambiato da grid a flex per allineare le informazioni personali alla sinistra */
+  gap: var(--form-info-spacing);
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: var(--form-info-spacing);
+  background-color: var(--background-color);
+}
+
+/* Stili per il form in dark mode */
+.dark-mode .form-info-container {
+  background-color: var(--background-color);
+}
+
+.form-container {
+  flex: 1; /* Fatto il form occupare lo spazio rimanente */
+  padding: 20px;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+/* Stili per il form in dark mode */
+.dark-mode .form-container {
+  background-color: var(--background-color);
+}
+
+.informazioni-personali {
+  /* Aggiorna i margin e il padding per posizionare le informazioni personali a sinistra */
+  margin: 20px;
+  padding: 20px;
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+/* Stili per le informazioni personali in dark mode */
+.dark-mode .informazioni-personali {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.form-container input {
+  color: var(--text-color);
+}
+
+.dark-mode .form-container input {
+  color: #ffffff;
 }
