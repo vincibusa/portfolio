@@ -1,0 +1,41 @@
+{
+    "home": "Home",
+    "about": "Su di me",
+    "portfolio": "Portfolio",
+    "contact": "Contatto",
+    "services": "Servizi",
+    "testimonials": "Testimonianze",
+    "view my work": "Visualizza il mio lavoro",
+    "about me": "Su di me",
+    "description":"Sono un Front-End Developer con oltre un anno di esperienza nel settore. Ho acquisito solide competenze sia nel front-end che nel back-end, ampliando il mio bagaglio di conoscenze. Sono ora desideroso di nuove opportunità per accrescere ulteriormente il mio know-how e affrontare nuove sfide professionali.",
+    "skills": "Competenze",
+    "experience": "Esperienza",
+    "contact me": "Contattami",
+    "my projects": "I miei progetti",
+    "send message": "Invia messaggio",
+    "projects":{
+        "mr-fish":{
+            "title":"Mister Fish",
+            "description":"Mister Fish è un sito web di e-commerce che vende prodotti surgelati. Il sito è stato realizzato con React e Redux per la parte front-end e firebase con Node.js per la parte back-end. È possibile registrarsi, effettuare l'accesso, aggiungere prodotti al carrello e completare un ordine."
+        },
+        "portfolio":{
+            "title":"Portfolio",
+            "description":"Il mio portfolio è un sito web statico realizzato con React. È possibile visualizzare i miei progetti, leggere la loro descrizione e visitare il sito web del progetto."
+        }
+    },
+    "servicesDesc":{
+        "web-development":{
+            "title":"Sviluppo Web",
+            "description":"Sviluppo di siti web responsive e performanti utilizzando le ultime tecnologie e best practices. "
+        },
+        "web-design":{
+            "title":"Web Design",
+            "description":"Design di interfacce utente intuitive e accattivanti per garantire un'esperienza utente ottimale."
+        },
+        "mobile-cross":{
+            "title":"Mobile Cross-Platform",
+            "description":"Sviluppo di applicazioni mobili cross-platform con React Native per raggiungere un vasto pubblico."
+        }
+    }
+    
+}
