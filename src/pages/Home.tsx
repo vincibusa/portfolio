@@ -1,9 +1,9 @@
 import { useState } from "react";
-import { FaGithub, FaLinkedin, FaTwitter, FaReact, FaNodeJs, FaPython, FaVuejs, FaAngular, FaBriefcase, FaFigma } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaTwitter, FaReact, FaNodeJs, FaPython,  FaAngular, FaBriefcase, FaFigma } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
 import { Link } from "react-scroll";
 import { Project } from "../models/ProjectModel";
-import { Testimonial } from "../models/TestimonialModel";
+
 import { SiMongodb, SiPostgresql } from "react-icons/si";
 import misterFishImage from "../assets/images/mr-fish-screen.png";
 import { useTranslation } from 'react-i18next';
