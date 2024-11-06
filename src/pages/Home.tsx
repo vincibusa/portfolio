@@ -81,8 +81,8 @@ const Home: React.FC = () => {
   ];
 const handleDownloadCV = (language: string) => {
   const cvUrl = language === "english" 
-    ? "../assets/CvInglese.pdf"
-    : "../assets/CvItaliano.pdf";
+    ? "/CvInglese.pdf"
+    : "/CvItaliano.pdf";
   
   const link = document.createElement('a');
   link.href = cvUrl;
