@@ -12,5 +12,29 @@
     "experience": "Experience",
     "contact me": "Contact Me",
     "my projects": "My Projects",
-    "send message": "Send Message"
+    "send message": "Send Message",
+    "projects": {
+        "mr-fish": {
+            "title": "Mister Fish",
+            "description": "Mister Fish is an e-commerce website that sells frozen products. The site was built with React and Redux for the front-end and Firebase with Node.js for the back-end. Users can register, log in, add products to the cart, and complete an order."
+        },
+        "portfolio": {
+            "title": "Portfolio",
+            "description": "My portfolio is a static website built with React. You can view my projects, read their descriptions, and visit the project website."
+        }
+    },
+    "servicesDesc": {
+        "web-development": {
+            "title": "Web Development",
+            "description": "Development of responsive and high-performance websites using the latest technologies and best practices."
+        },
+        "web-design": {
+            "title": "Web Design",
+            "description": "Design of intuitive and attractive user interfaces to ensure an optimal user experience."
+        },
+        "mobile-cross": {
+            "title": "Mobile Cross-Platform",
+            "description": "Development of cross-platform mobile applications with React Native to reach a wide audience."
+        }
+    }
 }
