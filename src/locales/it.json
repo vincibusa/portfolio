@@ -21,6 +21,14 @@
         "portfolio":{
             "title":"Portfolio",
             "description":"Il mio portfolio è un sito web statico realizzato con React. È possibile visualizzare i miei progetti, leggere la loro descrizione e visitare il sito web del progetto."
+        },
+        "fermento":{
+            "title":"Fermento 2.0 Cefalù",
+            "description":"Fermento 2.0 Cefalù è un sito web vetrina per la pizzeria, dispone anche di un sistema di prenotazione online. Con dashboard per gestire le prenotazioni e i clienti E anche un app mobile per gestire le prenotazioni e i clienti."
+        },
+        "bassi":{
+            "title":"Bassi Fondenti",
+            "description":"Bassi Fondenti è un sito web vetrina per il ristorante Bassi Fondenti"
         }
     },
     "servicesDesc":{

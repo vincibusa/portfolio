@@ -21,6 +21,14 @@
         "portfolio": {
             "title": "Portfolio",
             "description": "My portfolio is a static website built with React. You can view my projects, read their descriptions, and visit the project website."
+        },
+        "fermento":{
+            "title":"Fermento 2.0 Cefalù",
+            "description":"Fermento 2.0 Cefalù is a showcase website for a pizzeria, featuring an online reservation system. It includes an admin dashboard to manage reservations and customers, as well as a mobile app for managing bookings and customer data."
+        },
+        "bassi":{
+            "title":"Bassi Fondenti",
+            "description":"Bassi Fondenti is a showcase website for a pizzeria"
         }
     },
     "servicesDesc": {
